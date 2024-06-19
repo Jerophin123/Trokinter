@@ -11,4 +11,4 @@ fi
 cd /path/to/your/python/script/directory  # Replace with actual path
 
 # Run the Python script
-python3 create_windows.py
+sudo python3 trokinter.py
