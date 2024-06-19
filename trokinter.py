@@ -29,7 +29,7 @@ def create_window(x, y):
     root = tk.Tk()
     root.title("Message Window")
     root.geometry(f"300x200+{x}+{y}")
-    message = tk.Label(root, text="Hello, this is your message!")
+    message = tk.Label(root, text="You System is being FUCKED UP")
     message.pack(pady=50)
     root.mainloop()
 
